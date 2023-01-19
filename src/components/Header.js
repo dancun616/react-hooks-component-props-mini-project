@@ -1,14 +1,9 @@
-import React from "react";
-import blogData from "../data/blog";
+import React from "react"
 
-function Header(){
-    return(
-      <header>
-        <h1>{blogData.name}</h1>
-      </header>
-    )
-  }
+function Header(prop) {
+    return  <header>
+                <h1>{prop.name}</h1>
+            </header>
+}
 
-export default Header;
-
-
+export default Header
